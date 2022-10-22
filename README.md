@@ -1,4 +1,4 @@
-<h1 align='center'>Diagrama Entidade-Relacionamento de uma Clínica</h1>
+<h1 align='center'>Diagrama Entidade-Relacionamento de um Hospital</h1>
 
 <h2>Analise a seguinte descrição e extraia dela os requisitos para o banco de dados:</h2>
 <p>
