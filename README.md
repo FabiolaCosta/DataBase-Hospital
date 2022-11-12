@@ -1,8 +1,8 @@
-<h1 align='center'>Diagrama Entidade-Relacionamento de um Hospital</h1>
+<h1 align='center'>Criando um Banco de dados para um Hospital</h1>
 
 <h2>Analise a seguinte descrição e extraia dela os requisitos para o banco de dados:</h2>
 
-<h3>🔹Parte 1</h3>
+<h3>🔹Parte 1 - Diagrama Entidade Relacionamento</h3>
 <p>
 O hospital necessita de um sistema para sua área clínica que ajude a controlar consultas realizadas. Os médicos podem ser generalistas, especialistas ou residentes e têm seus dados pessoais cadastrados em planilhas digitais. Cada médico pode ter uma ou mais especialidades, que podem ser pediatria, clínica geral, gastroenterologia e dermatologia. Alguns registros antigos ainda estão em formulário de papel, mas será necessário incluir esses dados no novo sistema.
 
@@ -15,7 +15,7 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
 <br>
 <img align='center' src='DiagramaER-pt1.png'/>
 <br>
-<h3>🔹Parte 2</h3>
+<h3>🔹Parte 2 - Diagrama Entidade Relacionamento</h3>
 <p>
 No hospital, as internações têm sido registradas por meio de formulários eletrônicos que gravam os dados em arquivos. 
 
@@ -32,7 +32,7 @@ A internação, obviamente, é vinculada a um paciente – que pode se internar 
 <br>
 <img align='center' src='DiagramaER-pt2.png'/>
 <br>
-<h3>🔹Parte 3 - Alimentando o banco de dados</h3>
+<h3>🔹Parte 3 - Criando e alimentando o banco de dados</h3>
 <p> Crie scripts de povoamento das tabelas desenvolvidas na atividade anterior. Observe as seguintes atividades: </p>
 <ul>
 <li>Inclua ao menos dez médicos de </li>
