@@ -32,7 +32,7 @@ A internação, obviamente, é vinculada a um paciente – que pode se internar 
 <br>
 <img align='center' src='DiagramaER-pt2.png'/>
 <br>
-<h3>🔹Parte 3</h3>
+<h3>🔹Parte 3 - Alimentando o banco de dados</h3>
 <p> Crie scripts de povoamento das tabelas desenvolvidas na atividade anterior. Observe as seguintes atividades: </p>
 <ul>
 <li>Inclua ao menos dez médicos de </li>
