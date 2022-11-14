@@ -28,6 +28,7 @@ Cada tipo de quarto tem sua descrição e o seu valor diário (a princípio, o h
 Também é necessário controlar quais profissionais de enfermaria estarão responsáveis por acompanhar o paciente durante sua internação. Para cada enfermeiro(a), é necessário nome, CPF e registro no conselho de enfermagem (CRE).
 
 A internação, obviamente, é vinculada a um paciente – que pode se internar mais de uma vez no hospital – e a um único médico responsável.
+
 Por último, crie um script SQL para a geração do banco de dados
 </p>
 <br>
