@@ -102,7 +102,6 @@ select i.id_internacao, i.data_entrada, i.desc_procedimentos, q.numero from inte
 
 ```
 select p.nome_paciente, c.data_consulta, e.nome_especialidade from consulta c inner join paciente p on p.id_paciente = c.paciente_id inner join especialidade e on e.id_especialidade = c.especialidade_id where c.especialidade_id <> 1 and year(c.data_consulta) - year(p.dt_nasc_paciente) < 19 and year(c.data_consulta) - year(p.dt_nasc_paciente) > 0 order by c.data_consulta ;
-
 ```
 
 * Nome do paciente, nome do médico, data da internação e procedimentos das internações realizadas por médicos da especialidade “gastroenterologia”, que tenham acontecido em “enfermaria”.
@@ -129,5 +128,4 @@ select * from medico where nome_medico like '%Gabriel%';
 ```
 select enf.nome_enfermeiro, enf.cre, COUNT(p.enfermeiro_id) as Participacao from enfermeiro enf
 inner join plantao p on p.enfermeiro_id = enf.id_enfermeiro group by enf.id_enfermeiro having Participacao > 1;
-
 ```
