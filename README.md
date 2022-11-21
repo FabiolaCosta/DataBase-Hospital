@@ -74,7 +74,4 @@ Crie um script para atualizar ao menos dois médicos como inativos e os demais e
 <li>Os nomes dos médicos, seus CRMs e a quantidade de consultas que cada um realizou.</li>
 <li>Todos os médicos que tenham "Gabriel" no nome.</li>
 <li>Os nomes, CREs e número de internações de enfermeiros que participaram de mais de uma internação.</li>
->select enf.nome_enfermeiro, enf.cre, COUNT(p.enfermeiro_id) as Participacao from enfermeiro enf
-inner join plantao p on p.enfermeiro_id = enf.id_enfermeiro group by enf.id_enfermeiro having Participacao > 1;
-
 </ul>
