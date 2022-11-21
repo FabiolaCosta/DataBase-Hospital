@@ -58,7 +58,12 @@ Por último, crie um script SQL para a geração do banco de dados
 Pensando no banco que já foi criado para o Projeto do Hospital, realize algumas alterações nas tabelas e nos dados usando comandos de atualização e exclusão:
 Crie um script que adicione uma coluna “em_atividade” para os médicos, indicando se ele ainda está atuando no hospital ou não. 
 Crie um script para atualizar ao menos dois médicos como inativos e os demais em atividade.
-</p>
+</p><br>
+<div align="center">
+
+![em_atividade](https://user-images.githubusercontent.com/110692074/203159041-5c6e9396-c2f3-4c96-b537-3ac6b2104f57.png)
+
+</div>
 <br>
 <h3>🔹Parte 5 - Consultas</h3>
 <p> Crie um script e nele inclua consultas que retornem: </p>
