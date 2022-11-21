@@ -60,7 +60,7 @@ Crie um script que adicione uma coluna “em_atividade” para os médicos, indi
 Crie um script para atualizar ao menos dois médicos como inativos e os demais em atividade.
 </p>
 <br>
-<h3>🔹Parte 5 - Alterando o banco de dados</h3>
+<h3>🔹Parte 5 - Consultas</h3>
 <p> Crie um script e nele inclua consultas que retornem: </p>
 <ul>
 <li>Todos os dados e o valor médio das consultas do ano de 2020 e das que foram feitas sob convênio.</li>
