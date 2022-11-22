@@ -71,7 +71,7 @@ Crie um script para atualizar ao menos dois médicos como inativos e os demais e
 * Todos os dados e o valor médio das consultas do ano de 2020 e das que foram feitas sob convênio.
 
 ```
-
+select *, AVG(valor_consulta) from consulta group by year(data_consulta) = 2020 having convenio_id;
 ```
 
 * Todos os dados e o valor médio das consultas do ano de 2020 e das que foram feitas sob convênio.
@@ -89,7 +89,7 @@ on paciente.id_paciente = consulta.paciente_id order by receita.id_receita limit
 * Todos os dados da consulta de maior valor e também da de menor valor (ambas as consultas não foram realizadas sob convênio).
 
 ```
-
+select *, MAX(valor_consulta), MIN(valor_consulta) from consulta group by convenio_id is null;
 ```
 
 * Todos os dados das internações em seus respectivos quartos, calculando o total da internação a partir do valor de diária do quarto e o número de dias entre a entrada e a alta.
