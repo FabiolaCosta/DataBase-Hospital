@@ -118,7 +118,15 @@ order by c.data_consulta ;
 * Nome do paciente, nome do médico, data da internação e procedimentos das internações realizadas por médicos da especialidade “gastroenterologia”, que tenham acontecido em “enfermaria”.
 
 ```
-
+select p.nome_paciente, m.nome_medico, i.data_entrada, i.desc_procedimentos, q.id_quarto
+from internacao i
+inner join medico m 
+on m.id_medico = i.medico_id
+inner join paciente p
+on p.id_paciente = i.paciente_id
+inner join quarto q
+on q.id_quarto = i.quarto_id
+where q.tipo_id = 3 and m.especialidade_id = 3;
 ```
 
 * Os nomes dos médicos, seus CRMs e a quantidade de consultas que cada um realizou.
